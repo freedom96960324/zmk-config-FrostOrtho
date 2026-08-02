@@ -89,7 +89,7 @@
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 SPACE  &lt 4 CAPSLOCK      &kp BACKSPACE  &kp ENTER  &lt 3 SPACE  &kp ENTER   &kp RC(C)
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&rsr_trans>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>, <&rsr_trans>;
         };
 
         number {
