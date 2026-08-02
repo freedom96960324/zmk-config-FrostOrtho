@@ -117,10 +117,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &trans          &kp UP_ARROW    &trans           &trans               &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END              &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans          &trans          &trans           &trans               &trans  &trans  &trans  &trans  &trans
-&trans          &trans          &trans          &trans           &trans   &trans      &trans  &trans  &trans  &trans  &trans
+&kp Q             &kp W           &kp E      &kp R           &kp T                                &trans  &trans  &trans          &kp UP_ARROW    &trans
+&kp A             &kp S           &kp D      &kp F           &kp G                                &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LEFT_SHIFT    &kp F2          &kp M      &trans          &kp UP_ARROW                         &trans  &trans  &trans          &trans          &trans
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &trans  &trans          &trans          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>, <&rsr_trans>;
