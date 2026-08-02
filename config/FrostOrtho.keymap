@@ -133,7 +133,9 @@
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &trans  &trans      &mkp LCLK  &mkp LCLK  &mkp RCLK  &mkp RCLK  &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&rsr_trans>;
+            sensor-bindings =
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
+                <&rsr_trans>;
         };
 
         layer_5 {
@@ -144,7 +146,9 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&rsr_trans>;
+            sensor-bindings =
+                <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>,
+                <&rsr_trans>;
         };
 
         Bluetooth {
