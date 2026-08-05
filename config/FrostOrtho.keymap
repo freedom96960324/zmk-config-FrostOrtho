@@ -116,10 +116,10 @@
 
         arrow {
             bindings = <
-&kp Q             &kp W           &kp E      &kp R      &kp T                        &trans  &trans  &kp I           &kp UP_ARROW    &trans
-&kp A             &kp S           &kp D      &kp F      &kp G                        &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp LEFT_SHIFT    &kp F2          &kp I      &kp O      &kp UP_ARROW                 &trans  &kp M   &trans          &trans          &trans
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp SPACE  &kp SPACE  &kp SPACE     &kp SPACE      &trans  &trans  &trans          &trans          &trans
+&kp Q             &kp W           &kp E      &kp R      &kp T                        &trans  &trans          &kp UP_ARROW    &trans           &trans
+&kp A             &kp S           &kp D      &kp F      &kp G                        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT    &kp F2          &kp I      &kp O      &kp UP_ARROW                 &trans  &kp M           &trans          &trans           &trans
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp SPACE  &kp SPACE  &kp SPACE     &kp SPACE      &trans  &trans          &trans          &trans           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>, <&rsr_trans>;
