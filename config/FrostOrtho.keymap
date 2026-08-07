@@ -127,8 +127,8 @@
 
         MOUSE {
             bindings = <
-&kp Q             &kp W           &kp E         &kp R   &kp T               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &kp ENTER
-&kp A             &kp S           &kp D         &kp F   &kp G               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &kp BACKSPACE
+&kp Q             &kp W           &kp E         &kp R   &kp T               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &trans
+&kp A             &kp S           &kp D         &kp F   &kp G               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &trans
 &kp Z             &kp X           &kp C         &kp V   &kp B               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &kp LC(V)
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &trans  &trans      &kp BACKSPACE  &kp ENTER  &mkp RCLK  &mkp RCLK  &kp LC(C)
             >;
