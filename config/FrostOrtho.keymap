@@ -24,6 +24,16 @@
             bindings = <&kp LC(PLUS)>;
             key-positions = <0 9>;
         };
+
+        leftclick {
+            bindings = <&mkp LCLK>;
+            key-positions = <5 6>;
+        };
+
+        rightclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <6 7>;
+        };
     };
 
     macros {
