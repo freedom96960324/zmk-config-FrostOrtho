@@ -20,11 +20,6 @@
     combos {
         compatible = "zmk,combos";
 
-        zoom {
-            bindings = <&kp LC(PLUS)>;
-            key-positions = <0 9>;
-        };
-
         leftclick {
             bindings = <&mkp LCLK>;
             key-positions = <16 17>;
@@ -33,21 +28,6 @@
         caplock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <12 13>;
-        };
-
-        ctrl-c {
-            bindings = <&kp LC(C)>;
-            key-positions = <2 3>;
-        };
-
-        ctrl-v {
-            bindings = <&kp LC(V)>;
-            key-positions = <6 7>;
-        };
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
         };
     };
 
