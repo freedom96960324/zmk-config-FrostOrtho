@@ -133,10 +133,10 @@
 
         arrow {
             bindings = <
-&kp Q             &kp W           &kp E      &kp R           &kp T                           &trans          &trans          &kp UP_ARROW    &trans           &trans
-&kp A             &kp S           &kp D      &kp F           &kp G                           &kp UP_ARROW    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT    &kp F2          &kp I      &kp O           &kp B                           &kp DOWN_ARROW  &kp M           &trans          &trans           &trans
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ARROW  &kp SPACE  &kp RIGHT_ARROW      &kp SPACE       &trans          &trans          &trans           &trans
+&kp Q             &kp W           &kp E      &kp R           &kp T                           &trans          &trans  &trans  &trans  &trans
+&kp A             &kp S           &kp D      &kp F           &kp G                           &kp UP_ARROW    &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &kp F2          &kp I      &kp O           &kp B                           &kp DOWN_ARROW  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ARROW  &kp SPACE  &kp RIGHT_ARROW      &kp SPACE       &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>, <&rsr_trans>;
@@ -144,10 +144,10 @@
 
         MOUSE {
             bindings = <
-&kp Q             &kp W           &kp E         &kp R   &kp T               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &trans
-&kp A             &kp S           &kp D         &kp F   &kp G               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &trans
-&kp Z             &kp X           &kp C         &kp V   &kp B               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &kp LC(V)
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &trans  &trans      &kp BACKSPACE  &kp ENTER  &mkp RCLK  &mkp RCLK  &kp LC(C)
+&kp Q             &kp W           &kp E         &kp R   &kp T               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK
+&kp A             &kp S           &kp D         &kp F   &kp G               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK
+&kp Z             &kp X           &kp C         &kp V   &kp B               &trans         &trans     &trans     &trans     &kp LC(V)
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &trans  &trans      &kp BACKSPACE  &kp ENTER  &trans     &trans     &kp LC(C)
             >;
 
             sensor-bindings = <&scroll_up_down>, <&rsr_trans>;
