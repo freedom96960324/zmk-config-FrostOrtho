@@ -22,7 +22,24 @@
 // &mkp_input_listener { input-processors = <&zip_temp_layer 6 10000>; };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        caplock {
+            bindings = <&kp CLCK>;
+            key-positions = <13 12>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 9>;
+        };
+
+        leftclick {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 17>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
